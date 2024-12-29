@@ -1,0 +1,19 @@
+{
+  "name": "convertBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "menu": "nodemon menu.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "input": "^1.0.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.77.0",
+    "telegram": "^2.26.16"
+  }
+}
