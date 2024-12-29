@@ -46,15 +46,15 @@ bot.on("message", async (msg) => {
     const username = msg.from.username || msg.from.first_name || "User";
 
 
-    const inputText = msg.text.replace(`@${botUsername}`, "").trim();
-
-    // Handle empty input
-    if (!inputText) {
-        bot.sendMessage(chatId, `Hi @${sanitizeMarkdown(username)}, please provide some text for generation.`, {
+    if (!msg.text) {
+        bot.sendMessage(chatId, `Hi @${sanitizeMarkdown(username)}, I can only process text messages.`, {
             reply_to_message_id: msg.message_id,
         });
         return;
     }
+
+    const inputText = msg.text.replace(`@${botUsername}`, "").trim();
+
 
     try {
         if (isBotMentioned(msg)) {

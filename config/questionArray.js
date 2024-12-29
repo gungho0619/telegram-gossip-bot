@@ -17,6 +17,10 @@ const conversation = [
     },
     {
         question: "今天有进新朋友的请扣2",
+        answer: "2"
+    },
+    {
+        question: "昨天挣到收入的朋友请发个消息",
         answer: "我挣到了"
     },
     {
@@ -25,7 +29,7 @@ const conversation = [
     },
     {
         question: "公司的项目未来是非常有前景的大家说对吗",
-        answer: "对的"
+        answer: "对的，公司项目的前景非常好"
     },
     {
         question: "大家想挣到月入10万+吗，想的话请扣",
@@ -45,7 +49,7 @@ const conversation = [
     },
     {
         question: "大家想把团队越做越大吗？",
-        answer: "想，"
+        answer: "想"
     },
     {
         question: "这个收入大家满意吗",
