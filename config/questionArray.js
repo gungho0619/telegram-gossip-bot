@@ -58,6 +58,10 @@ const conversation = [
     {
         question: "大家想不想每天利用一点点的时间学习就能挣到想要的收入呢？",
         answer: "很想"
+    },
+    {
+        question: "大家想挣到月入10万+吗，想的话请扣1",
+        answer: "1"
     }
 ];
 

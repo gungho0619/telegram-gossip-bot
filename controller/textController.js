@@ -7,18 +7,18 @@ const openai = new OpenAI({
 
 const categories = {
     news: [
-        "Let me know news about technical industry",
-        "Let me know news about Sports industry",
-        "Let me know news about political industry",
-        "Let me know news about e-commerce industry",
-        "Let me know news about medical industry",
-        "Let me know news about accident",
-        "Let me know news about new programming languages",
-        "Let me know trends of Blockchain Technology",
-        "Let me know history about ancient countries",
-        "Let me know some knowledge for kids",
-        "Let me know ideas for animals",
-        "Let me know some news about famous people"
+        "Let me know news about technical industry, and ask related question",
+        "Let me know news about Sports industry, and ask related question",
+        "Let me know news about political industry, and ask related question",
+        "Let me know news about e-commerce industry, and ask related question",
+        "Let me know news about medical industry, and ask related question",
+        "Let me know news about accident, and ask related question",
+        "Let me know news about new programming languages, and ask related question",
+        "Let me know trends of Blockchain Technology, and ask related question",
+        "Let me know history about ancient countries, and ask related question",
+        "Let me know some knowledge for kids, and ask related question",
+        "Let me know ideas for animals, and ask related question",
+        "Let me know some news about famous people, and ask related question"
     ],
 };
 
