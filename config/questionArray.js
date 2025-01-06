@@ -21,7 +21,7 @@ const conversation = [
     },
     {
         question: "昨天挣到收入的朋友请发个消息",
-        answer: "我挣到了"
+        answer: "我也挣到了"
     },
     {
         question: "公司给到大家的支持力度大不大",

@@ -36,17 +36,17 @@ async function postPeriodicMessages() {
 
 setInterval(postPeriodicMessages, 10 * 60 * 1000);
 
-bot.on("new_chat_members", (msg) => {
-    const chatId = msg.chat.id;
-    const newMembers = msg.new_chat_members;
+// bot.on("new_chat_members", (msg) => {
+//     const chatId = msg.chat.id;
+//     const newMembers = msg.new_chat_members;
 
-    newMembers.forEach((member) => {
-        const username = member.username || member.first_name || "User";
-        console.log(`New user joined: ${username}`);
+//     newMembers.forEach((member) => {
+//         const username = member.username || member.first_name || "User";
+//         console.log(`New user joined: ${username}`);
 
-        bot.sendMessage(chatId, `Welcome to the chat!`);
-    });
-});
+//         bot.sendMessage(chatId, `${username}, Welcome to the chat!`);
+//     });
+// });
 
 bot.on("message", async (msg) => {
     const chatId = msg.chat.id;
